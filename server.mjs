@@ -32,7 +32,7 @@ client.once("ready", function () {
       function (err, showFeature) {
         if (showFeature) {
           console.log("feature true");
-          res.send("🎉 Feature flag is ON - New menu active!");
+          res.send("🎉 Feature flag is ON  - New menu active!");
         } else {
           console.log("feature false");
           res.send("Feature flag is OFF - Original menu");
